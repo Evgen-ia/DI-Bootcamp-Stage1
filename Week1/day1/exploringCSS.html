@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Examples</title>
+    <style>
+        /* Пример применения стилей к элементам */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #008080;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        /* Пример использования класса */
+        .highlight {
+            background-color: yellow;
+        }
+
+        /* Пример использования идентификатора */
+        #container {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        /* Пример использования псевдокласса */
+        a:hover {
+            color: #ff4500;
+        }
+
+        /* Пример использования вложенности и потомков */
+        .parent {
+            background-color: #87CEEB;
+            padding: 10px;
+        }
+
+        .dad {
+            background-color: #18617e;
+            padding: 10px;
+        }
+
+        .parent .child {
+            background-color: #519ba0;
+            border: 1px solid #0c1f1f;
+            margin-top: 10px;
+        }
+
+        body {
+            background-color: rgba(255, 255, 128, 0,5) ; 
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Examples</h1>
+
+    <p>This is a basic example of using CSS to style HTML elements.</p>
+
+    <!-- Пример использования класса -->
+    <p class="highlight">This paragraph has a yellow background.</p>
+    <p class="highlight">So as that one
+
+    <!-- Пример использования идентификатора -->
+    <div id="container">
+        <p>This is a container with a border and padding.</p>
+    </div>
+
+    <!-- Пример использования псевдокласса -->
+    <p><a href="#" class="hover">Hover over this link</a> to see the color change.</p>
+
+    <!-- вложенности и потомков -->
+    <div class="parent">
+        <p>This is a parent element.</p>
+        <div class="child">
+            <p>This is a child element.</p>
+        </div>
+    </div>
+
+    <div class="dad">
+        <div class="child">
+            <p>child element.</p>
+        </div>
+    </div>
+
+</body>
+</html>
