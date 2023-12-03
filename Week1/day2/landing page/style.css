@@ -1,0 +1,123 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+html{
+    
+    /* font-size: 2rem; */
+    
+
+}
+ 
+.big_div{
+    position: relative;
+    /* top: 3rem;  */
+    width: 100%;
+    height: auto;
+    background-image: url('pexels-splash-of-rain-7321.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    
+
+}
+/* 
+.dev{
+    display: flex;
+} */
+
+p{
+    /* position: fixed; */
+    /* top: 0; */
+    /* height: 2rem; */
+    /* background-color: lightgray; */
+}
+
+.first{
+    height: 3%;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    /* border: 1rem; */
+    border-color: rgb(34, 17, 17);
+    position: sticky;
+    top: 0;
+    /* padding: 1rem; */
+    /* font-size: 2rem; */
+    /* size: 2rem; */
+    align-items: center;
+
+}
+
+#top{
+    float: left;
+    margin: 0.5% 6%;
+    /* position: sticky;
+    top: 0; */
+}
+
+#Sign_in{
+    font-size: 1em;
+    float: right;
+    background-color: rgb(77, 158, 185);
+    margin: 0.5% 6%;
+    /* position: sticky;
+    top: 0; */
+}
+
+.second{
+    display: block;
+    /* height: 1000px; */
+    /* margin-inline: auto; */
+    margin-top: 3em;
+    font-size: 2em;
+    /* display: flex;   */
+    /* align-items: center; */
+    /* align-content: center; */ 
+
+}
+    
+
+.inside_second{
+    position: relative;
+    margin: 1rem 2rem;
+}
+
+input, #Sign_up{
+    display: inline-block;
+    font-size: 1.5rem;
+    height: 2rem;
+}
+
+.bottom{
+    background-color: lightgray;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    /* align-items: center; */
+    height: max-content;
+    padding: 5%;
+    /* position: sticky;
+    bottom: 0; */
+
+}
+
+.in_bottom{
+    /* display: inline-block; */
+    /* margin-inline: ; */
+    background-color: rgb(172, 172, 172);
+    /* text-align: center; */
+    /* height: 4rem; */
+    width: 25%;
+    /* margin: auto; */
+
+}
+
+.in_bottom img{
+    background-color: black;
+}
+

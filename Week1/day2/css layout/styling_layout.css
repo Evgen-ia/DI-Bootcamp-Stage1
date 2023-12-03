@@ -1,7 +1,52 @@
-.elements {
-    background-color: pink;
-    border: 2px solid black;
-    display: inline;
-    width: 100px; /* ❌ won't have any effect */
-    height: 100px; /* ❌ won't have any effect */
-  }
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    }
+    
+    
+    body {
+        /* display: block; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* text-align: center; */
+    }
+
+    #wrap{
+        /* display: box; */
+        /* text-align: center; */
+        /* align-items: center; */ 
+        width: 800px;
+        background-color: rgb(92, 125, 151);
+        margin: 0px ;
+
+    }
+    
+    #nav {
+        /* display: block; */
+        background-color: rgb(126, 175, 207);
+        width: 250px;
+        height: 100%;
+        float: left;
+        
+    }
+
+    #content {
+        /* display: block;
+        align-items: center;
+        overflow: hidden; Добавлено свойство overflow */
+    }
+    
+    .copyright {
+        /* display: block; */
+        /* float: left; */
+    }
+
+
+    /* #wrap #content #poem {
+        background-color: rgb(58, 142, 197);
+        display: block;
+        text-align: center;
+        width: 400px;
+    } */
