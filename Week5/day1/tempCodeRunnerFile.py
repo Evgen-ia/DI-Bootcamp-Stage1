@@ -1,1 +1,0 @@
-python -c "import numpy; help(numpy.add)"
