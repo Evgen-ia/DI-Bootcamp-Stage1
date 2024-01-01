@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "python.pythonPath": "/Users/evgenia/Projects/DI-Bootcamp-Stage1/venv/bin/python3.12",
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true
