@@ -26,7 +26,6 @@ class Farm:
         return list(self.animals.keys())
 
 
-
 macdonald = Farm("McDonald")
 macdonald.add_animal('cow', 3)
 macdonald.add_animal('sheep')
