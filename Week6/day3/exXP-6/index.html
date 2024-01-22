@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune Teller</title>
+</head>
+<body>
+
+<script>
+(function(numberOfChildren, partnerName, geographicLocation, jobTitle) {
+    const fortuneSentence = `You will be a ${jobTitle} in ${geographicLocation}, and married to ${partnerName} with ${numberOfChildren} kids.`;
+
+    const paragraph = document.createElement('p');
+    paragraph.textContent = fortuneSentence;
+    document.body.appendChild(paragraph);
+})(10, 'Rian Gosling', 'New York', 'Software Developer');
+</script>
+
+</body>
+</html>
