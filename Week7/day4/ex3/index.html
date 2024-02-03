@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>once you start down the dark path consume you it will</title>
+</head>
+<body>
+
+    <h1>Forever will it dominate your destiny</h1>
+
+    <script>
+        async function fetchStarshipData() {
+        try {
+            const response = await fetch("https://www.swapi.tech/api/starships/9/");
+            if (!response.ok) {
+            throw Error(`HTTP error! Status: ${response.status}`);
+            }
+
+            const objectStarWars = await response.json();
+            console.log(objectStarWars.result);
+        } catch (error) {
+            console.error("Error:", error);
+        }
+        }
+
+        fetchStarshipData();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Star Wars Web App</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Star Wars Web App</h1>
+
+<div id="characterInfo" style="display: block;">
+  <div id="errorMessage" style="display: none;"><i class="fas fa-exclamation-triangle"></i> Error loading data.</div>
+  <div id="characterDetails" style="display: inline-block; height: 30%"></div>
+  <div id="loadingMessage" style="display: none;"><i class="fas fa-spinner fa-spin"></i> Loading...</div>
+</div>
+
+
+<button id="fetchButton">Fetch Character</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+/* Add your own styles here */
+/* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #characterInfo {
+    margin-top: 20px;
+  }
+  
+  #loadingMessage,
+  #errorMessage {
+    margin-bottom: 10px;
+  }
+  
+  #characterDetails {
+    margin-top: 20px;
+  }
+   */
+
+   /* Add your own styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    background-image: url(https://www.shutterstock.com/shutterstock/videos/268234/thumb/1.jpg?ip=x480);
+    background-size: cover;
+}
+
+#container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+#characterInfo {
+    width: 40%; 
+    min-height: 250px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.473); 
+    border: 2px solid rgb(197, 152, 28); 
+    border-radius: 15px; 
+    padding: 20px;
+    align-items: center;
+}
+
+#fetchButton {
+    padding: 10px 20px;
+    background-color: #d39b00; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#fetchButton:hover {
+    background-color: #be8c00; /* Button background color on hover */
+}
