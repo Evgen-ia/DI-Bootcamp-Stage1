@@ -4,10 +4,11 @@ export const RestaurantsContext = createContext();
 
 export const RestaurantsContextProvider = (props) => {
   const [restaurants, setRestaurants] = useState([]);
+  console.log(restaurants);
   const [selectedRestaurant, setSelectedRestaurant] = useState(null);
 
   const addRestaurants = (restaurant) => {
-    console.log("Current restaurants:", restaurants, '/n', props, '/n', restaurant);
+    console.log("Current restaurants:", restaurants, '\n', props, '\n', restaurant);
     //setRestaurants([...restaurants, restaurant]);
     setRestaurants(restaurants.concat(restaurant));
 
